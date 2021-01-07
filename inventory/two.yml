@@ -1,0 +1,15 @@
+two:
+  hosts:
+    two_a:
+    two_b:
+  children:
+    master:
+      hosts:
+        two_a:
+    failover:
+      hosts:
+        two_b:
+    mysql:
+      children:
+        master:
+        failover:

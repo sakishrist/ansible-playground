@@ -1,0 +1,17 @@
+one:
+  hosts:
+    one_a:
+    one_b:
+  children:
+    master:
+      hosts:
+        one_a:
+    failover:
+      hosts:
+        one_b:
+    postgres:
+      children:
+        master:
+        failover:
+
+
