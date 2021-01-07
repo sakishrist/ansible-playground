@@ -10,8 +10,8 @@ one:
       hosts:
         one_b:
     postgres:
-      children:
-        master:
-        failover:
+      hosts:
+        one_a:
+        one_b:
 
 

@@ -10,6 +10,6 @@ two:
       hosts:
         two_b:
     mysql:
-      children:
-        master:
-        failover:
+      hosts:
+        two_a:
+        two_b:
