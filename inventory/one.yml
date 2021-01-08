@@ -1,4 +1,4 @@
-one:
+all:
   hosts:
     one_a:
     one_b:
@@ -9,5 +9,10 @@ one:
     failover:
       hosts:
         one_b:
+    one:
+      hosts:
+        one_a:
+        one_b:
+      
 
 
