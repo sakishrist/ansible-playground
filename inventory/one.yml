@@ -9,9 +9,5 @@ one:
     failover:
       hosts:
         one_b:
-    postgres:
-      hosts:
-        one_a:
-        one_b:
 
 

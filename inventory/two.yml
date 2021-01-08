@@ -9,7 +9,3 @@ two:
     failover:
       hosts:
         two_b:
-    mysql:
-      hosts:
-        two_a:
-        two_b:
